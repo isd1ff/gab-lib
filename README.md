@@ -9,7 +9,7 @@ You can find CLIENT_TOKEN in Gab Preferences > Developer > New Application
 
 Some commands may not work if there's no permission in the application.
 ```
-import gab
+from gab import lib
 
 BASE_URL="https://api.gab.com/"
 CLIENT_TOKEN = "AAAAA-AAAA-AAAA"
