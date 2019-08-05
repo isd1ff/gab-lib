@@ -17,5 +17,5 @@ CLIENT_TOKEN = "AAAAA-AAAA-AAAA"
 auth = lib.AuthAPI(BASE_URL,CLIENT_TOKEN)
 gab = lib.GabAPI(auth)
 
-gab.toot("hello world");
+gab.toot_send("hello world");
 ```
